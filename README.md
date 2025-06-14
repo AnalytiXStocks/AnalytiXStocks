@@ -31,9 +31,9 @@ Welcome to **AnalytiXStocks** — a smart web-based tool that helps new and mid-
 | Karthik Rajaa   | Backend Dev & Data Researcher|
 | Sudharsan       | Frontend & Backend Developer |
 | Ranjith V Cyber | UI/UX Designer + Frontend    |
-| Saran Kumar     | Frontend + Testing + Promo   |
+| Saran Kumar     | Security + Testing           |
 | Vishnu          | Testing + Promotion          |
-| Siva Prasath    | Tester                       |
+| Siva Prasath    | Tester + Promotion           |
 | Umashankar      | Security & Compliance        |
 
 ---
