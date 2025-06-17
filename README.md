@@ -1,69 +1,70 @@
-# AnalytiXStocks
+# AnalytiXStocks - Smart Stock Analysis Platform
 
-Welcome to **AnalytiXStocks** — a smart web-based tool that helps new and mid-level investors analyze stocks in real-time using clean visuals and simple insights. Our mission is to make stock trading understandable and profitable for everyone, even without deep technical knowledge.
+A comprehensive stock analysis platform for new and mid-level investors, providing real-time market data, predictive trends, and portfolio management tools.
 
----
+## Features
 
-## 🧠 Project Objective
+- 📊 Live stock prices and market data
+- 📈 Technical analysis and predictive trends
+- 💼 Portfolio tracking and management
+- 📱 Responsive design for all devices
+- 🔔 Real-time notifications and alerts
+- 📰 Market news and updates
+- 🔒 Secure authentication system
 
-- Provide accurate and real-time stock market analysis
-- Help users make smart investment decisions with minimal experience
-- Use clean UI, predictive analysis, and live data to guide users
+## Tech Stack
 
----
+### Frontend
+- React.js
+- Tailwind CSS
+- Chart.js for data visualization
+- Axios for API requests
 
-## 🚀 Key Features
+### Backend
+- Node.js with Express
+- MongoDB for database
+- JWT for authentication
+- WebSocket for real-time updates
 
-- 📊 Live Stock Prices with Graphs
-- 🔍 Predictive Trends Based on Historical Data
-- 🧾 Portfolio Tracker
-- 📈 Visual Charts (candlestick, bar)
-- 🔐 Secure API Integration
-- 🖥️ Responsive UI for all devices
+## Prerequisites
 
----
+- Node.js (v14 or higher)
+- npm or yarn
+- MongoDB
+- Alpha Vantage API key (for stock data)
 
-## 👨‍💻 Team Members
+## Setup Instructions
 
-| Name            | Role                         |
-|-----------------|------------------------------|
-| Harish          | Project Lead                 |
-| Karthik Rajaa   | Backend Dev & Data Researcher|
-| Sudharsan       | Frontend & Backend Developer |
-| Ranjith V Cyber | UI/UX Designer + Frontend    |
-| Saran Kumar     | Security + Testing           |
-| Vishnu          | Testing + Promotion          |
-| Siva Prasath    | Tester + Promotion           |
-| Umashankar      | Security & Compliance        |
-
----
-
-## ⚙️ Tech Stack
-
-### 🎨 Frontend
-- React.js, Tailwind CSS, HTML/CSS/JS
-
-### ⚙️ Backend
-- Java / Node.js
-- MySQL / PostgreSQL
-
-### 📊 Data
-- TwelveData / Alpha Vantage APIs
-- CSV/JSON
-
-### 🎯 Tools
-- Figma, Postman, Canva, GitHub
-
----
-
-## 📁 Folder Structure
-
+1. Clone the repository:
 ```bash
-AnalytiXStocks/
-├── frontend/         # React Frontend
-├── backend/          # Node.js/Java Backend
-├── data/             # Sample data / API testing
-├── designs/          # Figma exports, UI ideas
-├── docs/             # Project-related docs
-└── README.md
+git clone https://github.com/yourusername/analytix-stocks.git
+cd analytix-stocks
+```
 
+2. Install dependencies:
+```bash
+# Install frontend dependencies
+cd frontend
+npm install
+
+# Install backend dependencies
+cd ../backend
+npm install
+```
+
+3. Environment Setup:
+
+Create `.env` files in both frontend and backend directories:
+
+Frontend (.env):
+```
+REACT_APP_API_URL=http://localhost:5000/api
+REACT_APP_ALPHA_VANTAGE_API_KEY=CT9M0AZ3X7BMNBT2
+
+Backend (.env):
+```
+PORT=5000
+MONGODB_URI=mongodb://localhost:27017/analytix-stocks
+JWT_SECRET=your-super-secret-jwt-key-change-in-production
+ALPHA_VANTAGE_API_KEY=CT9M0AZ3X7BMNBT2
+```
